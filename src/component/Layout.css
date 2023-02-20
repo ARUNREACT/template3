@@ -1,0 +1,221 @@
+.headtext h1 {
+  font-weight: 900;
+  font-size: calc(1.375rem + 1.5vw);
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+.headtext .line {
+  height: 5px;
+  width: 100px;
+  border-radius: 50px;
+  margin-left: 5px;
+  background-color: var(--third-color);
+}
+
+/* **************** INPUT **************** */
+
+.input-div {
+  margin-top: 20px;
+  /* padding-bottom: 3px; */
+  border-bottom: 1px solid #a3a3a3c6;
+  /* background-color: #42c9b0; */
+}
+.input-div i {
+  font-size: 23px;
+  color: #ffffffd4;
+  width: 20px;
+  transition: all 1s;
+}
+.input-div:hover i {
+  color: var(--secondary-color);
+}
+.input-field {
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: var(--button-color);
+  padding-left: 20px;
+}
+
+.input-field::placeholder {
+  transition: all 0.5s;
+  color: #ffffff7b;
+  font-size: 17px;
+}
+
+.input-field:focus::placeholder {
+  transition: all 0.5s;
+  transform: translateY(-15px);
+  color: aliceblue;
+}
+
+.bar {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.bar::before,
+.bar::after {
+  content: "";
+  border-bottom: 2px solid var(--secondary-color);
+  width: 0px;
+  margin-top: 0px;
+  position: absolute;
+  transition: all 0.5s ease;
+}
+
+.bar::after {
+  right: 50%;
+}
+.bar::before {
+  left: 50%;
+}
+.input-field:focus ~ .bar::before,
+.input-field:focus ~ .bar::after {
+  width: 55%;
+}
+.connect .login,
+button {
+  width: 165px;
+  height: 45px;
+  border: none;
+  color: var(--button-color);
+  border-radius: 50px !important;
+  background-color: var(--secondary-color);
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 20px !important;
+  transition: all 0.5s !important;
+}
+.connect .login,
+button:hover {
+  transition: all 0.5s;
+  background-color: var(--hover-btn-color);
+  color: var(--hover-btn-text-color);
+}
+
+/* **************** INPUT **************** */
+
+/* ************** VERTICAL SCROLL **************** */
+.scroll {
+  height: 50vh;
+  overflow: hidden;
+}
+
+.scroll img {
+  margin: 1rem 1rem;
+  width: 195px;
+  padding: 6px 15px;
+  object-fit: cover;
+  animation: scroll 5s linear infinite;
+  border-radius: 6px;
+  transition: all 0.5s;
+  box-shadow: rgba(60, 64, 67, 0.087) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.085) 0px 1px 3px 1px;
+}
+.scroll img:hover {
+  margin-top: -10px;
+}
+@keyframes scroll {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+/* **************** VERTICAL SCROLL **************** */
+
+/* **************** HORIZONTAL SCROLL **************** */
+.about .infinite-scroll-container {
+  height: 90vh;
+}
+.infinite-scroll-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--button-color);
+  background-image: url("../asset/sample1/Frame\ 17.png");
+}
+
+.infinite-scroll-container img {
+  height: auto;
+  max-width: 1000px;
+  animation: journey-animation infinite 10s linear;
+}
+
+@keyframes journey-animation {
+  from {
+    transform: translateX(40%);
+  }
+  to {
+    transform: translateX(-10%);
+  }
+}
+
+/* **************** HORIZONTAL SCROLL **************** */
+
+/* **************** ABOUT US **************** */
+.about .what {
+  margin-top: -12rem;
+}
+.about .main-img {
+  height: 80vh;
+}
+.about .servicesimg {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: none;
+  height: 50px;
+  width: 60px;
+}
+.about .services h5 {
+  margin: 15px 0px;
+}
+.about .services {
+  margin: 15px 0px;
+  padding: 20px 20px 0px 20px;
+  width: 430px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  line-height: 26px;
+  transition: all 0.5s;
+}
+.about .services:hover {
+  transition: all 0.5s;
+  transform: translateY(-15px);
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--button-color);
+}
+/* **************** ABOUT US **************** */
+
+/* ************* CONTACT US ***************** */
+.contact .main-head {
+  padding-top: 5rem;
+  background-color: var(--primary-color);
+}
+.contact .main-footer {
+  margin-top: -5.5rem;
+}
+
+.contact .connect-child {
+  align-items: center;
+  height: 75vh;
+}
+.contact .connect {
+  margin-top: 0rem;
+  height: 93vh;
+  background-position: bottom right;
+  background-image: url("../asset/sample1/MAIN\ IMAGE\ .png");
+}
+
+/* ************* CONTACT US ***************** */
