@@ -19,7 +19,7 @@ export function Dashboard(): JSX.Element {
       <Dashboardhead />
       <div className="main-img">
         <div className="col-lg-10 d-flex flex-wrap mx-auto main-content  px-0">
-          <div className="col-md-6 col-12 pt-5">
+          <div className="col-md-7 col-12 pt-md-5">
             <Headtext
               h6class={"head-h6 col-sm-5 col-7"}
               h6={`We are PayPe`}
@@ -31,7 +31,7 @@ export function Dashboard(): JSX.Element {
               href={"/about"}
             />
           </div>
-          <div className="col-md-6 col-12 d-md-block d-none">
+          <div className="col-md-5 col-12 d-md-block d-none">
             <div
               data-aos="fade-up"
               id="carouselExampleCaptions"
