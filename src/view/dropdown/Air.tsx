@@ -14,9 +14,7 @@ export function Air() {
           span={"Airline Ticket Booking"}
           h1={`Airline Ticket Booking`}
           p1={`PayPe flight ticket booking service provides the retailers with a user friendly platform on which they can compare prices and offers from multiple airlines and offer the best deals on both domestic and international flights to their customers, thereby developing a sense of loyalty within their customer base/ customers.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

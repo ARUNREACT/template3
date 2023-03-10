@@ -16,9 +16,7 @@ export function Api() {
           p1={`The world’s most powerfuland easy-to-use APIs`}
           p2={`We agonize over the right abstractions so your teams don’t need to stitch together disparate systems or spend months integrating payments functionality.`}
           p3={`RNFI provides APIs to Channel Partner’s to create their own portal. RNFI is aggregating major services under a single API platform to enable our Channel Partner's retail networks to service the requirements of customers pertaining to Domestic Money Transfers, Bill Payments, Recharges, Travel Bookings, as well as for AEPS & Aadhaar Pay Services.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          headimg={require("../../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

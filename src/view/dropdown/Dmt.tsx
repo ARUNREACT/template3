@@ -14,10 +14,8 @@ export function Dmt() {
           span={"Money Transfer"}
           h1={`Domestic Money Transfer`}
           p1={`PayPe is building a bridge between the banks and the unbanked population. With PayPe’s domestic money transfer service, customers can now quickly and reliably send money across different bank accounts throughout the country.`}
-          p2={`In order to avail the domestic money transfer service, a customer needs to just visit their closest Relipay-associated merchant without having to visit a bank branch. By providing convenient banking services we aim to promote financial inclusion, especially in rural areas.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          p2={`In order to avail the domestic money transfer service, a customer needs to just visit their closest PayPe-associated merchant without having to visit a bank branch. By providing convenient banking services we aim to promote financial inclusion, especially in rural areas.`}
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

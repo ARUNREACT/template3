@@ -11,14 +11,10 @@
   margin-left: 5px;
   background-color: var(--third-color);
 }
-
 /* **************** INPUT **************** */
-
 .input-div {
   margin-top: 20px;
-  /* padding-bottom: 3px; */
   border-bottom: 1px solid #a3a3a3c6;
-  /* background-color: #42c9b0; */
 }
 .input-div i {
   font-size: 23px;
@@ -38,25 +34,21 @@
   color: var(--button-color);
   padding-left: 20px;
 }
-
 .input-field::placeholder {
   transition: all 0.5s;
   color: #ffffff7b;
   font-size: 17px;
 }
-
 .input-field:focus::placeholder {
   transition: all 0.5s;
   transform: translateY(-15px);
   color: aliceblue;
 }
-
 .bar {
   display: block;
   position: relative;
   width: 100%;
 }
-
 .bar::before,
 .bar::after {
   content: "";
@@ -66,7 +58,6 @@
   position: absolute;
   transition: all 0.5s ease;
 }
-
 .bar::after {
   right: 50%;
 }
@@ -96,21 +87,18 @@ button:hover {
   background-color: var(--hover-btn-color);
   color: var(--hover-btn-text-color);
 }
-
 /* **************** INPUT **************** */
-
 /* ************** VERTICAL SCROLL **************** */
 .scroll {
   height: 50vh;
   overflow: hidden;
 }
-
 .scroll img {
   margin: 1rem 1rem;
   width: 195px;
   padding: 6px 15px;
   object-fit: cover;
-  animation: scroll 5s linear infinite;
+  animation: scroll 9s linear infinite;
   border-radius: 6px;
   transition: all 0.5s;
   box-shadow: rgba(60, 64, 67, 0.087) 0px 1px 2px 0px,
@@ -118,39 +106,33 @@ button:hover {
 }
 .scroll img:hover {
   margin-top: -10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 @keyframes scroll {
   0% {
     transform: translateY(100px);
   }
   100% {
-    transform: translateY(-50px);
+    transform: translateY(-180px);
   }
 }
-
 /* **************** VERTICAL SCROLL **************** */
-
 /* **************** HORIZONTAL SCROLL **************** */
-.about .infinite-scroll-container {
-  height: 90vh;
-}
 .infinite-scroll-container {
-  width: 100%;
-  height: 110vh;
   overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: center;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: top center;
   background-size: cover;
-  color: var(--button-color);
   background-image: url("../asset/sample1/Frame\ 17.png");
 }
-
 .infinite-scroll-container img {
-  height: auto;
-  max-width: 900px;
-  animation: journey-animation infinite 10s linear;
+  width: 800px;
+  animation: journey-animation infinite 20s linear;
 }
-
 @keyframes journey-animation {
   from {
     transform: translateX(40%);
@@ -159,17 +141,19 @@ button:hover {
     transform: translateX(-10%);
   }
 }
-
 /* **************** HORIZONTAL SCROLL **************** */
-
 /* **************** ABOUT US **************** */
 .about .what {
   margin-top: -12rem;
 }
 .about .main-img {
-  height: 80vh;
+  min-height: 100vh;
+  align-items: start;
 }
-
+.about .main-img .main-head {
+  height: 85vh;
+  align-items: center;
+}
 .about .servicesimg {
   background-color: transparent;
   padding: 0;
@@ -197,29 +181,27 @@ button:hover {
   background-color: var(--primary-color);
   color: var(--button-color);
 }
-/* **************** ABOUT US **************** */
-
-/* ************* CONTACT US ***************** */
-.contact .main-head {
-  padding-top: 5rem;
-  background-color: var(--primary-color);
+.about .infinite-scroll-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+/* **************** ABOUT US **************** */
+/* ************* CONTACT US ***************** */
 .contact .main-footer {
   margin-top: -5.5rem;
 }
-
-.contact .connect-child {
-  align-items: center;
-  height: 75vh;
-}
 .contact .connect img {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 .contact .connect {
+  min-height: 120vh;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 0rem;
-  height: 100vh;
-  background-position: bottom right;
   background-image: url("../asset/sample1/MAIN\ IMAGE\ .png");
 }
-
 /* ************* CONTACT US ***************** */

@@ -14,9 +14,7 @@ export function Pos() {
           span={"POS"}
           h1={`POS`}
           p1={`COMMING SOON`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          headimg={require("../../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

@@ -11,9 +11,7 @@ export function Privacy() {
         <Headslide
           headclass={"col-lg-10  pb-sm-5 main-head mx-auto d-flex  flex-wrap"}
           h1={`Privacy Policy`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <div className="term-content col-sm-11 col-lg-10 mx-auto p-2 bg-dange">

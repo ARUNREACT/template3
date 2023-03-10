@@ -13,10 +13,8 @@ export function Balance() {
           h6={`Products & Solutions / Micro ATM / `}
           span={"Balance Enquiry"}
           h1={`Balance Enquiry`}
-          p1={`As Micro-ATMs, have become a better alternative for merchants as compared to regular ATMs. Any Relipay-associated merchant can now carry out balance inquiries for their customers using their debit card. This feature is highly helpful for the customers based out in geographies where there is scarcity of ATM’s.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          p1={`As Micro-ATMs, have become a better alternative for merchants as compared to regular ATMs. Any PayPe-associated merchant can now carry out balance inquiries for their customers using their debit card. This feature is highly helpful for the customers based out in geographies where there is scarcity of ATM’s.`}
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

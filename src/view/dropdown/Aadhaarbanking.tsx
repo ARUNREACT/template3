@@ -15,9 +15,7 @@ export function Aadhaarbanking() {
           h1={`Aadhaar Banking`}
           p1={`We have taken a huge leap towards promoting the government’s attempts towards the promotion of financial inclusion in India, with the help of our Aadhar banking services.`}
           p2={`Now services such as Cash Withdrawal, Balance Enquiry, Mini-statements, Aadhaar Pay and Cash Deposits can be availed by the customers through PayPe platform. Our Aadhar banking services, don’t just benefit the customers but also the retailers in rural areas. The retailers will earn a commission every time they carry out a transaction for a customer, thus generating an alternative source of income for them.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

@@ -14,9 +14,7 @@ export function Cashes() {
           span={"Cash Withdrawal"}
           h1={`Cash Withdrawal`}
           p1={`Customers can conduct swift cash withdrawals via M-ATM just by visiting their closest PayPe merchant. Thus, by eliminating the need of having to search for an ATM, which can be an extremely tedious task for someone living in a rural area, we aim to make banking more accessible and increase the population of banked individuals in India.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

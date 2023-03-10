@@ -18,8 +18,8 @@ export function Dashboard(): JSX.Element {
     <div className="home  mx-auto">
       <Dashboardhead />
       <div className="main-img">
-        <div className="col-lg-10 d-flex flex-wrap mx-auto main-content  px-0">
-          <div className="col-md-7 col-12 pt-md-5">
+        <div className="col-lg-10 d-flex flex-wrap mx-auto main-content ">
+          <div className="col-md-7 col-12 pb-5 mb-5 pb-sm-0 mb-sm-0">
             <Headtext
               h6class={"head-h6 col-sm-5 col-7"}
               h6={`We are PayPe`}
@@ -63,19 +63,19 @@ export function Dashboard(): JSX.Element {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img
-                    src="https://www.rnfiservices.com/images/relipay-banner-1.png"
+                    src={require("../../asset/sample1/scroll1.png")}
                     alt="..."
                   />
                 </div>
                 <div className="carousel-item">
                   <img
-                    src="https://www.rnfiservices.com/images/relipay-banner-1.png"
+                    src={require("../../asset/sample1/scroll2.png")}
                     alt="..."
                   />
                 </div>
                 <div className="carousel-item">
                   <img
-                    src="https://www.rnfiservices.com/images/relipay-banner-1.png"
+                    src={require("../../asset/sample1/scroll3.png")}
                     alt="..."
                   />
                 </div>
@@ -84,7 +84,7 @@ export function Dashboard(): JSX.Element {
           </div>
         </div>
       </div>
-      <div className="our-services col-10 mx-auto p-0">
+      <div className="our-services col-10 mx-auto">
         <Headtext
           h6class={"head-h6"}
           h6={`What you can get`}
@@ -100,59 +100,49 @@ export function Dashboard(): JSX.Element {
 
         <div className="d-flex flex-wrap justify-content-around">
           <Services
-            img={
-              "https://uxwing.com/wp-content/themes/uxwing/download/banking-finance/mobile-money-transfer-icon.png"
-            }
+            img={require("../../asset/sample1/services/img1.png")}
             h5={`Money Transfer`}
             p={`With our Domestic Money Transfer services, any customer can transfer money across Pan India through our expansive retailer network`}
           />
           <Services
-            img={
-              "https://cdn1.iconfinder.com/data/icons/soleicons-solid-vol-1/64/aadhaar_aadhar_card_driving_license_id-512.png"
-            }
+            img={require("../../asset/sample1/services/img2.png")}
             h5={`Aadharr Banking`}
             p={`With our Domestic Money Transfer services, any customer can transfer money across Pan India through our expansive retailer network`}
           />
           <Services
-            img={"https://static.thenounproject.com/png/4096449-200.png"}
+            img={require("../../asset/sample1/services/img3.png")}
             h5={`Mini ATM`}
             p={`With our Domestic Money Transfer services, any customer can transfer money across Pan India through our expansive retailer network`}
           />
           <Services
-            img={
-              "https://cdn0.iconfinder.com/data/icons/payments-3/66/60-512.png"
-            }
+            img={require("../../asset/sample1/services/img4.png")}
             h5={`Digital Payment`}
             p={`With our Domestic Money Transfer services, any customer can transfer money across Pan India through our expansive retailer network`}
           />
           <Services
-            img={
-              "https://cdn4.iconfinder.com/data/icons/cab-line/128/Cab_-_Line_-_Expand-05-512.png"
-            }
+            img={require("../../asset/sample1/services/img5.png")}
             h5={`Utility Payments`}
             p={`With our Domestic Money Transfer services, any customer can transfer money across Pan India through our expansive retailer network`}
           />
           <Services
-            img={"https://cdn-icons-png.flaticon.com/512/2301/2301788.png"}
+            img={require("../../asset/sample1/services/img6.png")}
             h5={`Travel Services`}
             p={`With our Domestic Money Transfer services, any customer can transfer money across Pan India through our expansive retailer network`}
           />
           <Services
-            img={"https://cdn-icons-png.flaticon.com/512/2956/2956548.png"}
+            img={require("../../asset/sample1/services/img7.png")}
             h5={`CMS`}
             p={`With our Domestic Money Transfer services, any customer can transfer money across Pan India through our expansive retailer network`}
           />
           <Services
-            img={
-              "https://icon-library.com/images/membership-card-icon/membership-card-icon-17.jpg"
-            }
+            img={require("../../asset/sample1/services/img8.png")}
             h5={`PAN Card`}
             p={`With our Domestic Money Transfer services, any customer can transfer money across Pan India through our expansive retailer network`}
           />
         </div>
       </div>
-      <div className="map mt-5">
-        <div className="col-lg-10 mx-auto p-0 d-flex flex-wrap ">
+      <div className="map mt-4 py-5">
+        <div className="col-lg-10 mx-auto  d-flex flex-wrap">
           <div className="col-md-6 col-12 map-content">
             <Headtext
               h1={`One platform for all FinTech needs`}
@@ -162,7 +152,7 @@ export function Dashboard(): JSX.Element {
             />
           </div>
 
-          <div className="col-md-6 col-12 map-img py-sm-5 ">
+          <div className="col-md-6 col-12 map-img">
             <Chart />
           </div>
         </div>

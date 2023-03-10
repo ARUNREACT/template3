@@ -14,10 +14,8 @@ export function Microatm() {
           span={"Micro ATM"}
           h1={`Micro ATM`}
           p1={`Since ATMs have a high setup cost and are only financially viable in places that have a high footfall, it is extremely difficult to find ATMs in rural areas where even the population is below the minimum required footfall.`}
-          p2={`Now with the help of Relipay’s micro-ATM service, bank account holders can access the services offered by a regular ATM just by visiting their closest Relipay-associated merchant. Since the set-up cost of a micro-ATM is extremely low, even small merchants can set up a micro-ATM and carry out transactions for their customers and earn a generous commission.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          p2={`Now with the help of PayPe’s micro-ATM service, bank account holders can access the services offered by a regular ATM just by visiting their closest PayPe-associated merchant. Since the set-up cost of a micro-ATM is extremely low, even small merchants can set up a micro-ATM and carry out transactions for their customers and earn a generous commission.`}
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

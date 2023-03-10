@@ -14,9 +14,7 @@ export function Bill() {
           span={"Bill Payments"}
           h1={`Bill Payments`}
           p1={`Merchants can now pay the gas, water, and electricity bill of their customers right from the comfort of their shop and earn a commission for each transaction, thus generating a lucrative alternate source of revenue for themselves.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

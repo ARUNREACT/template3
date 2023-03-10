@@ -14,10 +14,8 @@ export function Balanceenquiry() {
           span={"Balance Enquiry"}
           h1={`Balance Enquiry`}
           p1={`Now retailers can access the amount details of an Aadhar liked bank account just by using the customer’s Aadhar number and their biometric details.`}
-          p2={`Using AePS balance inquiry service customers can avoid the trouble of visiting a bank branch. Now instead they can go to their closest Relipay-associated merchant who will carry out this basic banking service.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          p2={`Using AePS balance inquiry service customers can avoid the trouble of visiting a bank branch. Now instead they can go to their closest PayPe-associated merchant who will carry out this basic banking service.`}
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

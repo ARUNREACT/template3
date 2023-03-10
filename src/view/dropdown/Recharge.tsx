@@ -13,10 +13,8 @@ export function Recharge() {
           h6={`Products & Solutions / Utilities / `}
           span={"Recharge"}
           h1={`Recharge`}
-          p1={`Mobile recharges/ DTH recharges can now be offered by any retailer with the help of Relipay. Now customers who more often than not, don’t own smartphones avail prepaid mobile recharge services without facing the limitation of owning a smartphone.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          p1={`Mobile recharges/ DTH recharges can now be offered by any retailer with the help of PayPe. Now customers who more often than not, don’t own smartphones avail prepaid mobile recharge services without facing the limitation of owning a smartphone.`}
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

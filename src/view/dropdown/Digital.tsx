@@ -14,9 +14,7 @@ export function Digital() {
           span={"Digital Payment"}
           h1={`Digital Payment – QR`}
           p1={`PayPe has launched their QR code services, Now merchants can quickly generate a QR code to carry out swift, secure and reliable UPI transactions, thus eliminating the need of managing excessive amounts of cash. This will also help them to promote their business as large number of customers are leaning towards digital payments.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

@@ -1,5 +1,4 @@
 import "../component/Layout.css";
-
 export function Headtext(props: any) {
   return (
     <div className="headtext">
@@ -22,7 +21,6 @@ export function Headtext(props: any) {
     </div>
   );
 }
-
 export function Services(props: any) {
   return (
     <div data-aos="slide-up" className="services">
@@ -36,7 +34,6 @@ export function Services(props: any) {
     </div>
   );
 }
-
 export function Button(props: any) {
   return (
     <div className="d-flex justify-content-center pt-5">
@@ -46,11 +43,10 @@ export function Button(props: any) {
     </div>
   );
 }
-
 export function Headslide(props: any) {
   return (
     <div className={props.headclass}>
-      <div className="col-md-6 col-12 pt-md-5">
+      <div className="col-md-6 col-12">
         <Headtext
           h6class={props.h6class}
           h6={props.h6}
@@ -73,7 +69,6 @@ export function Headslide(props: any) {
     </div>
   );
 }
-
 export function Input(props: any) {
   return (
     <div
@@ -90,41 +85,39 @@ export function Input(props: any) {
     </div>
   );
 }
-
 export function Vertical(prop: any) {
   return (
     <div className="col-lg-10 mx-auto vertical my-sm-5">
       <Headtext h1={`Our Partners`} line={"line"} />
       <div data-aos="zoom-in" className="scroll mb-md-5">
-        <img src="https://rnfiservices.com/images/irctc-logo.png" />
-        <img src="https://rnfiservices.com/images/protean.png" />
-        <img src="https://rnfiservices.com/images/mobikwik.png" />
-        <img src="https://rnfiservices.com/images/blinkit-logo.png" />
-        <img src="https://rnfiservices.com/images/bank-of-baroda.png" />
-        <img src="https://rnfiservices.com/images/paytm-payment-bank.png" />
-        <img src="https://rnfiservices.com/images/airtel-payment-bank.png" />
-        <img src="https://rnfiservices.com/images/bharat-billpay.png" />
-        <img src="https://rnfiservices.com/images/bank-india-logo.png" />
-        <img src="https://rnfiservices.com/images/union-bank.png" />
-        <img src="https://rnfiservices.com/images/axis-bank.png" />
-        <img src="https://rnfiservices.com/images/icici-bank.png" />
-        <img src="https://rnfiservices.com/images/tata-mg.png" />
-        <img src="https://rnfiservices.com/images/chaitanya.png" />
-        <img src="https://rnfiservices.com/images/muthoot-finance.png" />
-        <img src="https://rnfiservices.com/images/india-family-mart.png" />
-        <img src="https://rnfiservices.com/images/travel-boutique-online.png" />
-        <img src="https://rnfiservices.com/images/razorpay-logo.png" />
-        <img src="https://rnfiservices.com/images/easebuzz.png" />
-        <img src="https://rnfiservices.com/images/cashfree-logo.png" />
+        <img src={require("../asset/sample1/partners/part1.png")} />
+        <img src={require("../asset/sample1/partners/part2.png")} />
+        <img src={require("../asset/sample1/partners/part3.png")} />
+        <img src={require("../asset/sample1/partners/part4.png")} />
+        <img src={require("../asset/sample1/partners/part5.png")} />
+        <img src={require("../asset/sample1/partners/part6.png")} />
+        <img src={require("../asset/sample1/partners/part7.png")} />
+        <img src={require("../asset/sample1/partners/part8.png")} />
+        <img src={require("../asset/sample1/partners/part9.png")} />
+        <img src={require("../asset/sample1/partners/part10.png")} />
+        <img src={require("../asset/sample1/partners/part11.png")} />
+        <img src={require("../asset/sample1/partners/part12.png")} />
+        <img src={require("../asset/sample1/partners/part13.png")} />
+        <img src={require("../asset/sample1/partners/part14.png")} />
+        <img src={require("../asset/sample1/partners/part15.png")} />
+        <img src={require("../asset/sample1/partners/part16.png")} />
+        <img src={require("../asset/sample1/partners/part17.png")} />
+        <img src={require("../asset/sample1/partners/part18.png")} />
+        <img src={require("../asset/sample1/partners/part19.png")} />
+        <img src={require("../asset/sample1/partners/part20.png")} />
       </div>
     </div>
   );
 }
-
 export function Horizontal(props: any) {
   return (
-    <div className="infinite-scroll-container ">
-      <div data-aos="slide-up" className="col-lg-10 mx-auto my-sm-5 pt-2">
+    <div className="infinite-scroll-container py-5 my-5">
+      <div data-aos="slide-up" className="col-lg-10 mx-auto">
         <Headtext
           h6class={"head-h6"}
           h6={`From the origin`}
@@ -132,23 +125,22 @@ export function Horizontal(props: any) {
           line={"line"}
         />
       </div>
-      <img
-        data-aos="zoom-in"
-        src="https://delighted.com/wp-content/uploads/2021/01/b2b-journey-2021-01.png?w=1260"
-        alt="Infinite Scroll Image"
-      />
+      <div>
+        <img
+          className="img-fluid"
+          data-aos="zoom-in"
+          src={require("../asset/sample1/hori.png")}
+          alt="Infinite Scroll Image"
+        />
+      </div>
     </div>
   );
 }
-
 export function Connect(props: any) {
   return (
-    <div className="connect">
-      <div className="connect-child col-lg-10 mx-auto">
-        <div
-          data-aos="slide-right"
-          className="col-md-6 pt-5 mt-5 col-12 img-content "
-        >
+    <div className="connect ">
+      <div className="connect-child col-lg-10 mx-auto py-5 my-5 py-sm-0 my-sm-0">
+        <div data-aos="slide-right" className="col-md-6 col-12 img-content ">
           <Headtext
             h6class={"head-h6"}
             h6={`Have a query ?`}
@@ -156,7 +148,7 @@ export function Connect(props: any) {
           />
           <img
             data-aos="fade-up"
-            className="img-fluid vert-move py-3 d-flex mx-auto mx-lg-0"
+            className="img-fluid vert-move d-flex mx-auto mx-lg-0"
             src={require("../asset/sample1/management.png")}
           />
         </div>

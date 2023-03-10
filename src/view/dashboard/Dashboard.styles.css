@@ -1,18 +1,18 @@
 * {
-  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif; */
-  /* font-family: Arial, Helvetica, sans-serif; */
 }
 .main {
   background-color: #ffffff;
 }
 
-/* **************MAIN HEADER IMAGE******************* */
 .main-img {
-  height: 100vh;
-  background-size: cover;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+
   background-repeat: no-repeat;
   background-position: bottom right;
+  background-size: cover;
+
   background-image: url("../../asset/sample1/MAIN\ IMAGE\ .png");
 }
 
@@ -24,13 +24,11 @@
   width: 450px;
 }
 .about .vertical {
-  /* margin-top: -5rem; */
 }
 
 .main-content {
-  /* height: 500px; */
   position: relative;
-  padding-top: 90px;
+
   color: white;
 }
 
@@ -53,12 +51,10 @@
   object-fit: cover;
   margin-top: 30px;
 }
-/* **************MAIN HEADER IMAGE******************* */
 
 .head-h6 {
   padding: 10px 10px;
-  /* min-width: 150px;
-  max-width: 250px; */
+
   border-radius: 50px;
   text-align: center;
   letter-spacing: 1px;
@@ -87,7 +83,6 @@
   background-color: var(--hover-btn-color);
 }
 
-/* **************OUR-SERVICES******************* */
 .our-services {
   margin-top: -8rem;
 }
@@ -128,23 +123,23 @@
   padding: 0px 15px 0px 0px;
   font-size: 15px;
 }
-/* **************OUR-SERVICES******************* */
 
-/* ************** MAP ******************* */
 .map {
-  height: 85vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
-  color: #ffffff;
-  /* background: rgba(0, 0, 0, 0.741); */
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-blend-mode: color; */
   background-image: url("../../asset/sample1/Frame\ 19.png");
 }
 
-.map-content .headtext p {
-  padding: 50px 0px 30px 0px;
+.map-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--button-color);
 }
 .map-content .headtext a {
   background-color: var(--secondary-color);
@@ -157,22 +152,25 @@
   height: 500px;
   overflow: hidden;
 }
-/* ************** MAP ******************* */
 
-/* **************CONNECT-US******************* */
 .connect {
-  margin-top: -7rem;
-  color: var(--button-color);
-  min-height: 85vh;
-  background-position: center;
+  min-height: 100vh;
+  margin-top: -11rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: top center;
   background-size: cover;
+  color: var(--button-color);
   background-image: url("../../asset/sample1/Frame\ 18.png");
 }
 .connect-child {
   display: flex;
   align-items: center;
+  justify-content: center;
+
   flex-wrap: wrap;
-  height: 80vh;
 }
 .connect img {
   width: 300px;
@@ -191,7 +189,6 @@
     transform: translateY(-30px);
   }
 }
-/* **************CONNECT-US******************* */
 
 @media screen and (max-width: 576px) {
   .our-services {
@@ -208,20 +205,11 @@
     justify-content: center;
   }
   .home .vertical {
-    margin-top: -80px;
   }
 
   .infinite-scroll-container img {
-    width: 100%;
-    /* background-color: #5499c7; */
-    /* margin-top: -60px; */
   }
   .infinite-scroll-container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .scroll {
     height: 60vh !important;
@@ -242,10 +230,11 @@
     padding-left: 10px;
   }
   .map-content .headtext p {
-    padding: 10px 0px 10px 0px !important;
   }
   .drop-head {
     background-position: center !important;
+  }
+  .connect {
   }
 }
 
@@ -258,24 +247,21 @@
     letter-spacing: 0.5px;
   }
   .map {
-    display: inline-block;
-    height: 900px;
   }
   #chartdiv {
-    height: 400px;
+    height: 300px;
   }
   .contact .main-footer {
     margin-top: -15rem;
   }
   .connect {
-    height: 160vh !important;
+  }
+  .contact .connect img {
+    display: none !important;
   }
   .contact .connect {
-    height: 210vh !important;
-    background-position: center !important;
-  }
-  .connect img {
-    margin-top: 0rem !important;
+    margin-top: -10rem;
+    min-height: 190vh !important;
   }
 }
 @media screen and (min-width: 900px) {
@@ -287,16 +273,6 @@
   }
 }
 @media screen and (max-width: 900px) {
-  /* .infinite-scroll-container .headtext,
-  .our-services h1,
-  .map-content,
-  .img-content {
-    text-align: center;
-  } */
-  .contact .connect {
-    min-height: 120vh !important;
-    background-position: center !important;
-  }
   .main-img .headtext {
     display: block;
   }
@@ -304,14 +280,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
   .mainline {
     display: flex;
     justify-content: center;
   }
 }
-/* **************** DROPDOWN-PAGES ******************** */
+
 .drop-head {
   min-height: 70vh;
   background-position: top right;
@@ -321,7 +296,7 @@
 .drop-head span {
   color: rgb(14, 231, 86) !important;
 }
-/* **************** DROPDOWN-PAGES ******************** */
+
 .head-slide-img {
   display: flex;
   align-items: center;
@@ -350,7 +325,6 @@ h2 {
   letter-spacing: 0.2px;
 }
 
-/* /////////////////////////////// */
 input[type="number"] {
   -moz-appearance: textfield;
 }
@@ -361,16 +335,16 @@ input[type="number"] {
   min-height: 100vh;
   width: 100%;
   filter: blur(4px);
-  /* background-position: center center; */
-  /* background-repeat: no-repeat; */
+
   background-size: cover;
-  /* background-attachment: fixed; */
+
   background-blend-mode: darken;
   background-color: #154360b8;
-  background-image: url("https://images.unsplash.com/photo-1506971456216-7b494f54d588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1373&q=80");
+  background-image: url("../../asset/sample1/login-back.png");
 }
 .oo {
-  height: 68vh;
+  margin-top: 15px;
+  height: 72vh;
   position: absolute;
   background: #ffffff1d;
   box-shadow: 0 0px 13px 0 #ffffff5e;
@@ -414,6 +388,7 @@ input[type="number"] {
 }
 
 .form-img img {
+  width: 400px;
   transform: scalex(-1);
   animation: form 1s infinite alternate;
 }
@@ -423,7 +398,7 @@ input[type="number"] {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-30px);
+    transform: translateY(-10px);
   }
 }
 

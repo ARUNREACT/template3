@@ -86,13 +86,6 @@ export function Dashboardhead() {
             </div>
             <div className="offcanvas-body">
               <ul className="navbar-nav">
-                {/* <a className="head-logo d-sm-block d-none" href="/">
-                  <img
-                    src={require("../../../asset/sample1/mainlogo.png")}
-                    alt="paype logo"
-                    className="logo-circle"
-                  />
-                </a> */}
                 <Headeroption
                   footerli={"nav-item"}
                   foota={"nav-link"}
@@ -186,7 +179,7 @@ export function Dashboardhead() {
                   footerli={"nav-item"}
                   foota={"nav-link"}
                   href={"/contact"}
-                  footaname={"Contactus"}
+                  footaname={"Contact Us"}
                 />
                 <Headeroption
                   footerli={"nav-item"}

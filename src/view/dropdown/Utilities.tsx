@@ -13,11 +13,9 @@ export function Utilities() {
           h6={`Products & Solutions / `}
           span={"Utilities"}
           h1={`Utilities`}
-          p1={`Merchants can help their customers in paying their utility bills and conduct mobile recharge /DTH recharge by turning their shop into an easy and accessible recharges bill payment center, with the help of Relipay’s platform.`}
-          p2={`Customers, especially in the rural areas can visit their closest Relipay-associated merchant and pay their Utility and other recurring bills without having to stand in long queues.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          p1={`Merchants can help their customers in paying their utility bills and conduct mobile recharge /DTH recharge by turning their shop into an easy and accessible recharges bill payment center, with the help of PayPe’s platform.`}
+          p2={`Customers, especially in the rural areas can visit their closest PayPe-associated merchant and pay their Utility and other recurring bills without having to stand in long queues.`}
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

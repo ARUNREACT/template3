@@ -14,9 +14,7 @@ export function Itr() {
           span={"ITR Filing"}
           h1={`ITR Filing`}
           p1={`Filing ITR just got a little more convenient. PayPe’s platform now facilitates online ITR filing through an assisted model. Now customers can conveniently get their ITR filed at their closest PayPe retailer. To file their ITR, customers simply have to fill out their form with the relevant details and submit it to the merchant. After submitting the form, the customer will be shortly contacted by our associate who will personally guide them through the entire process.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

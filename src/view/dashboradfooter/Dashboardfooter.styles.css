@@ -45,6 +45,7 @@ a {
   margin-top: 2.5px;
 }
 .social i {
+  font-size: 20px !important;
   color: #a1a1a1;
   transition: all 0.5s;
 }

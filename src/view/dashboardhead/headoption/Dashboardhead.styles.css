@@ -47,7 +47,7 @@
   letter-spacing: 1px;
   height: 40px;
   color: white;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .navbar-nav .nav-link:hover {
@@ -186,12 +186,6 @@
   letter-spacing: 1px;
 }
 
-/* .dropdown ul {
-  padding: 0;
-  border: 1px solid rgb(0, 170, 255);
-  background-color: rgb(237, 253, 255);
-} */
-
 .head-logo img {
-  width: 80px;
+  width: 70px;
 }

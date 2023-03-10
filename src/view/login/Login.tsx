@@ -10,8 +10,6 @@ export function Login() {
       <div className="d-flex align-items-center justify-content-center vh-100">
         <div className="signup-body "></div>
         <div className="oo col-lg-9  col-11"></div>
-
-        {/* <div className="bac "> */}
         <form className="form-body col-lg-9  col-11 ">
           <div className="d-flex align-items-center justify-content-center flex-wrap">
             <div className="form-img col-12 col-md-6">
@@ -46,8 +44,6 @@ export function Login() {
           </div>
         </form>
       </div>
-      {/* </div> */}
-      {/* <Dashboardfooter /> */}
     </div>
   );
 }

@@ -13,10 +13,8 @@ export function Railway() {
           h6={`Products & Solutions / Travel Services  / `}
           span={"Train Ticket Booking"}
           h1={`Train Ticket Booking`}
-          p1={`As the principle IRCTC agent, Relipay, offers its retailers the facility to book train tickets for their customers to any destination across India in a quick and hassle free manner with competitive rates and great commissions.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          p1={`As the principle IRCTC agent, PayPe, offers its retailers the facility to book train tickets for their customers to any destination across India in a quick and hassle free manner with competitive rates and great commissions.`}
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

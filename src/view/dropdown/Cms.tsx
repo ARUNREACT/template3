@@ -14,9 +14,7 @@ export function Cms() {
           span={"Cash Management Services"}
           h1={`Cash Management Services`}
           p1={`Our cash management service offers a full range of products and services to efficiently and effectively cater to the cash managing of our clients. We are extensively engaged in CMS operations with some of the most prestigious NBFCs, MFIs, and Service aggregators and are thriving to build up an ecosystem for Cash Flow fluid mechanics to optimize and facilitate effective cash management for our client’s business operations.`}
-          headimg={
-            "https://production.cyware.com/enterprise/img/cert.d54df11.svg"
-          }
+          headimg={require("../../asset/sample1/about.png")}
         />
       </div>
       <Dashboardfooter />

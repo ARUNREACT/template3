@@ -34,7 +34,7 @@ export function Dashboardfooter() {
           <Option h5={`Head Office`} />
           <Icon
             icon={"fa fa-map-marker fs-5"}
-            p={`UG-5,Relipay House,Plot No.42,`}
+            p={`UG-5,PayPe House,Plot No.42,`}
             p1={` DLF Industrial Area, Kirti Nagar,New Delhi - 110015, India`}
           />
           <Icon
@@ -95,7 +95,7 @@ export function Dashboardfooter() {
         <div className="col-md-3 col-sm-6 order-md-0 order-2 social">
           <Option h5={`Follow us on`} />
           <div
-            className=" col-8 col-sm-12 d-flex justify-content-around"
+            className=" col-8 col-sm-12 d-flex p-0"
             style={{ marginTop: "-25px" }}
           >
             <Icon href={"#"} icon={"fa fa-facebook fs-3 "} />
