@@ -12,7 +12,6 @@ import {
   Vertical,
 } from "../../component/Layout";
 import Chart from "./Map";
-
 export function Dashboard(): JSX.Element {
   return (
     <div className="home  mx-auto">
@@ -97,7 +96,6 @@ export function Dashboard(): JSX.Element {
           pool of distinguished payment products and services with multiple
           Partnered Banks & Clients.`}
         />
-
         <div className="d-flex flex-wrap justify-content-around">
           <Services
             img={require("../../asset/sample1/services/img1.png")}
@@ -151,19 +149,14 @@ export function Dashboard(): JSX.Element {
               href={"/about"}
             />
           </div>
-
           <div className="col-md-6 col-12 map-img">
             <Chart />
           </div>
         </div>
       </div>
-
       <Vertical />
-
       <Horizontal />
-
       <Connect />
-
       <Dashboardfooter />
     </div>
   );

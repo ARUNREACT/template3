@@ -33,7 +33,6 @@ import { Utilities } from "../view/dropdown/Utilities";
 import { Login } from "../view/login/Login";
 import { Privacy } from "../view/terms & privacy/Privacy";
 import { Terms } from "../view/terms & privacy/Terms";
-
 function MainNavigator() {
   return (
     <div className="App">
@@ -77,5 +76,4 @@ function MainNavigator() {
     </div>
   );
 }
-
 export default MainNavigator;

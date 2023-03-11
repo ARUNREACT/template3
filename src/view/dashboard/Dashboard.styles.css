@@ -3,19 +3,15 @@
 .main {
   background-color: #ffffff;
 }
-
 .main-img {
-  height: 120vh;
+  height: 115vh;
   display: flex;
   align-items: center;
-
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
-
   background-image: url("../../asset/sample1/MAIN\ IMAGE\ .png");
 }
-
 .main-head {
   padding-top: 7rem;
   color: var(--button-color);
@@ -25,13 +21,10 @@
 }
 .about .vertical {
 }
-
 .main-content {
   position: relative;
-
   color: white;
 }
-
 .carousel-indicators > button {
   border-radius: 50% !important;
   padding: 5px !important;
@@ -44,17 +37,15 @@
 }
 .carousel-item {
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 35px;
 }
 .carousel-item img {
   width: 330px;
   object-fit: cover;
-  margin-top: 30px;
+  margin-bottom: 40px;
 }
-
 .head-h6 {
   padding: 10px 10px;
-
   border-radius: 50px;
   text-align: center;
   letter-spacing: 1px;
@@ -63,7 +54,6 @@
   background-color: var(--third-color);
   font-weight: 500;
 }
-
 .main-content a,
 .map-content .headtext a {
   background-color: var(--third-color);
@@ -82,7 +72,6 @@
   color: var(--hover-btn-text-color);
   background-color: var(--hover-btn-color);
 }
-
 .our-services {
   margin-top: -8rem;
 }
@@ -91,7 +80,6 @@
   margin: 30px 0px 0px 0px;
   transition: all 0.5s;
 }
-
 .servicesimg {
   height: 70px;
   width: 100px;
@@ -123,7 +111,6 @@
   padding: 0px 15px 0px 0px;
   font-size: 15px;
 }
-
 .map {
   min-height: 100vh;
   display: flex;
@@ -133,7 +120,6 @@
   background-repeat: no-repeat;
   background-image: url("../../asset/sample1/Frame\ 19.png");
 }
-
 .map-content {
   display: flex;
   flex-direction: column;
@@ -152,7 +138,6 @@
   height: 500px;
   overflow: hidden;
 }
-
 .connect {
   min-height: 100vh;
   margin-top: -11rem;
@@ -169,14 +154,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   flex-wrap: wrap;
 }
 .connect img {
   width: 300px;
   margin-top: 6rem;
 }
-
 .connect img.vert-move {
   -webkit-animation: mover 1s infinite alternate;
   animation: mover 1s infinite alternate;
@@ -189,7 +172,6 @@
     transform: translateY(-30px);
   }
 }
-
 @media screen and (max-width: 576px) {
   .our-services {
     margin-top: -5rem;
@@ -206,7 +188,6 @@
   }
   .home .vertical {
   }
-
   .infinite-scroll-container img {
   }
   .infinite-scroll-container {
@@ -237,7 +218,6 @@
   .connect {
   }
 }
-
 @media screen and (max-width: 767px) {
   .about .main-img {
     height: 150vh;
@@ -286,17 +266,14 @@
     justify-content: center;
   }
 }
-
 .drop-head {
   min-height: 70vh;
   background-position: top right;
   background-image: url("../../asset/sample1/MAIN\ IMAGE\ .png");
 }
-
 .drop-head span {
   color: rgb(14, 231, 86) !important;
 }
-
 .head-slide-img {
   display: flex;
   align-items: center;
@@ -324,20 +301,16 @@ h2 {
   font-size: 15.5px;
   letter-spacing: 0.2px;
 }
-
 input[type="number"] {
   -moz-appearance: textfield;
 }
-
 .signup-body {
   position: absolute;
   z-index: 0;
   min-height: 100vh;
   width: 100%;
   filter: blur(4px);
-
   background-size: cover;
-
   background-blend-mode: darken;
   background-color: #154360b8;
   background-image: url("../../asset/sample1/login-back.png");
@@ -353,7 +326,6 @@ input[type="number"] {
   border-radius: 12px;
   border: 1px solid #ffffff2e;
 }
-
 .form-content {
   display: flex;
   flex-direction: column;
@@ -365,7 +337,6 @@ input[type="number"] {
 .form-content h2 {
   letter-spacing: 3px;
 }
-
 .form-content .input-div {
   border-bottom: 1px solid var(--button-color);
 }
@@ -386,13 +357,11 @@ input[type="number"] {
   background-color: var(--secondary-color);
   color: black;
 }
-
 .form-img img {
   width: 400px;
   transform: scalex(-1);
   animation: form 1s infinite alternate;
 }
-
 @keyframes form {
   0% {
     transform: translateY(0);
@@ -401,7 +370,6 @@ input[type="number"] {
     transform: translateY(-10px);
   }
 }
-
 @media screen and (max-width: 767px) {
   .form-img {
     width: 0% !important;
