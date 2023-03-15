@@ -191,6 +191,7 @@
   .infinite-scroll-container img {
   }
   .infinite-scroll-container {
+    height: 80vh;
   }
   .scroll {
     height: 60vh !important;
